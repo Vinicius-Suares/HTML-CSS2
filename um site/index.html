@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Login</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <div id="containers">
+        <div id="sign_in_container">
+            <div id="box_in">
+                <h1>Sign in</h1>
+                <p>Put your informations on the boxes above and sign in and start to enjoy yout benefits in our website</p>
+            </div>
+            <div id="sign_in_inputs">
+                <input type="text" name="name" id="name" placeholder="Name" minlength="5" maxlength="30"> <br>
+                <input type="email" name="email" id="email" placeholder="Email"> <br>
+                <input type="password" name="password" id="password" placeholder="Password" minlength="3" maxlength="30"> <br>
+                <input type="button" value="Sign in" id="sign_in_button" onclick="sign_in()">
+            
+        <p>Do you already have an account?<p>
+            <input type="button" id="change" value="click here" onclick="change()">
+                </div>
+            </div>
+        <div id="sign_up_container">
+            <div id="box_up">
+                <h1>Sign up</h1>
+                <p>Put your informations on the boxes above and sign up in your account to enjoy yout benefits</p>
+            </div>
+            <input type="text" name="name_u" id="name_u" placeholder="Name">
+            <input type="password" name="password_u" id="password_u" placeholder="Password">
+            <a href="#">Forget your password?</a>
+            <input type="button" value="Sign up" onclick="sign_up()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
